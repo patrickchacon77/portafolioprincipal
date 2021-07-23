@@ -1,0 +1,11 @@
+.navbar-toggler-menu{
+    height: 50px;
+    width: 50px;
+    background-image: url("/public/images/menu.svg");
+}
+
+body{
+    background-color: black;
+    background-image: url("/public/images/menu.svg");
+
+}

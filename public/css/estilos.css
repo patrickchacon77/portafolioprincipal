@@ -1,0 +1,13 @@
+.navbar{
+    background-color:inherit!important;
+}
+
+#header-fondo{
+    background-image: url('./../images/fondoheader.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+
+
