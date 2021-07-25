@@ -89,11 +89,17 @@ a.nav-link{
 
 /* imagen header */
 
+div .header-columan2{
+    padding: 0 20%;
+    position: relative;
+
+}
+
 #imagen-principal{
     width: 300px;
     height: 300px;
-    position: absolute;
-    left: 68%;
+    position: relative;
+    
     z-index: 1;
     animation: movimiento1 .8s alternate infinite ease-in;
     content: url('./../images/prueba.jpg');
@@ -103,8 +109,8 @@ a.nav-link{
     width: 60px;
     height: 60px;
     position: absolute;
-    left: 65%;
-    bottom: 30%;
+    left: 40%;
+    bottom: 10%;
     z-index: 3;
     animation: movimiento2 .9s alternate infinite ease-in;
     content: url('./../images/animacion/objeto1.png');
@@ -114,8 +120,8 @@ a.nav-link{
     width: 100px;
     height:100px;
     position: absolute;
-    left: 85%;
-    bottom: 20%;
+    left: 80%;
+    bottom: 10%;
     z-index: 2;
     animation: movimiento2 .9s alternate infinite ease-in;
     content: url('./../images/animacion/objeto3.png');
@@ -124,7 +130,8 @@ a.nav-link{
     width: 100px;
     height: 100px;
     position: absolute;
-    left: 70%;
+    left: 38%;
+    bottom: 50%;
     z-index: 2;
     animation: movimiento2 .9s alternate infinite ease-in;
     content: url('./../images/animacion/objeto3.png');
@@ -144,8 +151,8 @@ a.nav-link{
     width: 100px;
     height:100px;
     position: absolute;
-    left: 70%;
-    bottom: 18%;
+    left: 65%;
+    bottom: 90%;
     z-index: 2;
     animation: movimiento3 .9s alternate infinite ease-in;
     content: url('./../images/animacion/objeto3.png');

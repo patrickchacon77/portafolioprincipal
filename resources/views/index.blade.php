@@ -1,7 +1,7 @@
 @extends('layouts.plantilla')
 
 @section('header')
-
+    
 @endsection
 
 
