@@ -42,8 +42,17 @@
                 </div>
             </div>
             <div class="col-12  col-md-6">
-                <div class="container">
-                    <img src="" alt="">
+                <div class="d-flex flex-row-reverse">
+                    <div class="col-">
+                        <div class="card-img-top ">
+                            <img class="" id="imagen-objeto1">
+                            <img id="imagen-objeto2">
+                            <img id="imagen-principal">
+                            <img id="imagen-objeto3">
+                            <img id="imagen-objeto4">
+                            <img id="imagen-objeto5">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -1,3 +1,43 @@
+
+/* animaciones */
+
+@keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:50px; top:0px;}
+    50%  { left:200px; top:100px;}
+    75%  { left:0px; top:100px;}
+    100% { left:0px; top:0px;}
+  }
+  @keyframes movimiento1 {
+    0%   { 
+        transform: translateY(-5%);
+    }
+    100% { 
+        transform: translateY(0%);
+    }
+  }
+
+  @keyframes movimiento2 {
+    0%   { 
+        transform: translateY(-40%);
+    }
+
+    100% { 
+        transform: translateX(-40%);
+    }
+  }
+
+  @keyframes movimiento3 {
+    0%   { 
+        transform: translateY(+30%);
+    }
+
+    100% { 
+        transform: translateX(+30%);
+    }
+  }
+
+
 .navbar{
     background-color:inherit!important;
 }
@@ -47,4 +87,66 @@ a.nav-link{
     content: url('./../images/icon/linkedin1.png');
 }
 
+/* imagen header */
 
+#imagen-principal{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 68%;
+    z-index: 1;
+    animation: movimiento1 .8s alternate infinite ease-in;
+    content: url('./../images/prueba.jpg');
+}
+
+#imagen-objeto1{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 65%;
+    bottom: 30%;
+    z-index: 3;
+    animation: movimiento2 .9s alternate infinite ease-in;
+    content: url('./../images/animacion/objeto1.png');
+}
+
+#imagen-objeto2{
+    width: 100px;
+    height:100px;
+    position: absolute;
+    left: 85%;
+    bottom: 20%;
+    z-index: 2;
+    animation: movimiento2 .9s alternate infinite ease-in;
+    content: url('./../images/animacion/objeto3.png');
+}
+#imagen-objeto3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 70%;
+    z-index: 2;
+    animation: movimiento2 .9s alternate infinite ease-in;
+    content: url('./../images/animacion/objeto3.png');
+}
+
+#imagen-objeto4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 85%;
+    z-index: 3;
+    animation: movimiento3 .9s alternate infinite ease-in;
+    content: url('./../images/animacion/objeto2.png');
+}
+
+#imagen-objeto5{
+    width: 100px;
+    height:100px;
+    position: absolute;
+    left: 70%;
+    bottom: 18%;
+    z-index: 2;
+    animation: movimiento3 .9s alternate infinite ease-in;
+    content: url('./../images/animacion/objeto3.png');
+}
