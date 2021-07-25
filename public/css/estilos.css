@@ -10,4 +10,41 @@
 
 }
 
+a.nav-link{
+    color: #000000!important;
+}
+
+ a.nav-link:hover{
+    color: #bb1c98!important;
+}
+
+#icono-facebook{
+    width: 30px ;
+    height: 30px ;
+    content: url('./../images/icon/facebook.png');
+}
+
+#icono-intagram{
+    width: 30px ;
+    height: 30px ;
+    content: url('./../images/icon/intragram.png');
+}
+#icono-linkerin{
+    width: 30px ;
+    height: 30px ;
+    content: url('./../images/icon/linkedin.png');
+}
+
+/* hover de iconos */
+#icono-facebook:hover{
+    content: url('./../images/icon/facebook1.png');
+}
+
+#icono-intagram:hover{
+    content: url('./../images/icon/intragram1.png');
+}
+#icono-linkerin:hover{
+    content: url('./../images/icon/linkedin1.png');
+}
+
 
