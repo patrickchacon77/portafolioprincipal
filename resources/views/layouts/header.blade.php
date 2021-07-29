@@ -1,6 +1,6 @@
 <header>
 {{-- barra de navegación  --}}
-<div class="container-fluid min-vw-100 min-vh-100 py-0" id="header-fondo">
+<div class="container-fluid  min-vh-100 py-0" id="header-fondo">
     <div class="container fs-5 d-flex px-2 py-0 my-2 align-center justify-content-left ">
         {{-- se incluye la barra de navegación --}}
         @include('layouts.nav')
