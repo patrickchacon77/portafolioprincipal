@@ -50,4 +50,27 @@
         left: 55%;
         top: 5%;
     }
+
+
+    /* portafolio */
+
+    .portafolio-grid{
+        height: 2000px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
 }
+
+
+@media (max-width: 575.98px) { 
+    .portafolio-grid{
+        height: 3000px;
+        padding: 0 10%;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+ }
