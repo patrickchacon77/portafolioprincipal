@@ -46,14 +46,46 @@
                     <span class="objeto3 delay-4"></span>
                     <span class="objeto4 delay-5"></span>
 
-                <div class="portafolio-grid p-4">   
-                    <img id="item1"  class="shadow-lg  rounded">
-                    <img id="item2"  class="shadow-lg  rounded">
-                    <img id="item3"  class="shadow-lg  rounded">
-                    <img id="item4"  class="shadow-lg  rounded">
-                    <img id="item5"  class="shadow-lg  rounded">
-                    <img id="item6"  class="shadow-lg  rounded">
-                    <img id="item7"  class="shadow-lg  rounded">
+                <div class="portafolio-grid p-4">
+                    <div class="shadow-lg  rounded" id="item1">
+                        <div class="efecto-hover p-4">
+                            <h2>Páginas web Liceo Dame</h2>
+                        
+                        </div>
+                    </div>
+                    <div class="shadow-lg  rounded" id="item2">
+                        <div class="efecto-hover p-4">
+                            <h2>Páginas web Liceo Dame</h2>
+                        </div>
+                    </div>
+                    <div class="shadow-lg  rounded" id="item3">
+                        <div class="efecto-hover p-4">
+                            <h2>Páginas web Liceo Dame</h2>
+                        </div>
+                    </div>
+                    <div class="shadow-lg  rounded" id="item4">
+                        <div class="efecto-hover p-4">
+                            <h2>Páginas web Liceo Dame</h2>
+                        </div>
+                    </div>
+                    <div class="shadow-lg  rounded" id="item5">
+                        <div class="efecto-hover p-4">
+                            <h2>Páginas web Liceo Dame</h2>
+                        </div>
+                    </div>
+                    <div class="shadow-lg  rounded" id="item6">
+                        <div class="efecto-hover p-4">
+                            <h2>Páginas web Liceo Dame</h2>
+                        </div>
+                    </div>
+                    <div class="shadow-lg  rounded" id="item7">
+                        <div class="efecto-hover p-4">
+                            <h2>Páginas web Liceo Dame</h2>
+                        </div>
+                    </div>
+                    
+
+
                 </div>
             </div>
             </div>
