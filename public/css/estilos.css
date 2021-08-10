@@ -637,3 +637,54 @@ div .efecto-hover:hover{
         background-color: #F9F9F9;
     }
   
+/* ilustracion1 */
+
+.ilustration1{
+    display: block;
+    width: 90%;
+    height: 90%;
+    padding: 15px;
+}
+
+.ilustration1 #circulo1{
+    animation: movimiento1 .5s alternate infinite ease-in;
+    /* animation: movimientoCirculo 1s .5s both infinite; */
+}
+
+
+.ilustration1 #circulo2{
+    animation: movimiento1 .9s alternate infinite ease-in;
+    /* animation: movimientoCirculo 1s .5s both infinite; */
+}
+
+.ilustration1 #cuadro1{
+    transform: translate(2%, 2%);
+    /* animation: movimiento1 .9s alternate infinite ease-in; */
+    animation: movimientoCirculo 2s .5s both infinite alternate;
+}
+
+.ilustration1 #cuadro2{
+    transform: translate(-2%, -2%);
+    /* animation: movimiento1 .9s alternate infinite ease-in; */
+    animation: movimientoCirculo 2s  both infinite alternate;
+}
+
+.ilustration1 #laravel{
+    animation: aparecer 2s alternate infinite ease-in;
+
+}
+
+@keyframes movimientoCirculo{
+    100%{
+        transform: unset;
+    }
+}
+
+@keyframes aparecer{
+    from{
+        opacity: 0.9;
+    }
+    to{
+        opacity: 0.1;
+    }
+}
