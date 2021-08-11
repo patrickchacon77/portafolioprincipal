@@ -13,7 +13,17 @@
                 <div class="card border-0">
                     <H2 class="fs-4 fw-lighter">¡Hola a todos!</H2>
                     <H1 class="fs-1">Yo soy Patrick Chacón</H1>
-                    <p class="text-uppercase fs-4">Un programador con alma de diseñador</p>
+                    <div class="d-inline-flex  p-0">
+                    <span class="escribir1"></span>
+                    <p class="text-uppercase fs-4"><span class="typed"></span></p>
+                    <div class="titulo" id="cadenas-texto">
+                        <p class="text-uppercase fs-4">Un <i class="profesion">Programador</i></p>
+                        <p class="text-uppercase fs-4">Un <i class="profesion">Diseñador</i></p>
+                        <p class="text-uppercase fs-4">Un <i class="profesion">Ingeniero</i></p>
+                    </div>
+                    <span class="escribir2"></span>
+                    </div>
+
                     <p class="text-uppercase fs-5  fw-lighter">Full-stack</p>
                     <div class="container-fluid p-0">
                         <a href="https://www.facebook.com/Patrickchacon7/" class="me-4"><img id="icono-facebook"></a>
