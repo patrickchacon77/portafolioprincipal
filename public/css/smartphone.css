@@ -1,5 +1,107 @@
 @media (min-width: 576px) { 
+    
+    /* animacion fondo portafolio */
 
+    .container-fondo-portafolio{
+        position: relative;
+    }
+
+    span.objeto1,
+    span.objeto2,
+    span.objeto3,
+    span.objeto4{
+        border: 0;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 3;
+        background: -webkit-linear-gradient(left, rgb(177, 12, 199), rgb(38, 13, 150));
+        animation: vuelta 7s linear infinite normal both;
+        /* border-radius: 50%; */
+
+    }
+
+    span.objeto1{
+        width: 100px;
+        height: 100px;
+        bottom: -100px;
+    }
+
+    span.objeto2{
+        width: 70px;
+        height: 70px;
+        bottom: -700px;
+    }
+
+    span.objeto3{
+        width: 50px;
+        height: 50px;
+        bottom: -50px;
+    }
+
+    span.objeto4{
+        width: 20px;
+        height: 20px;
+        bottom: -20px;
+    }
+
+    .container-fondo-portafolio span:nth-child(1){
+        left: 5%;
+    }
+    .container-fondo-portafolio span:nth-child(2){
+        left: 50%;
+    }
+    .container-fondo-portafolio span:nth-child(3){
+        left: 35%;
+    }
+    .container-fondo-portafolio span:nth-child(4){
+        left: 5%;
+    }
+    .container-fondo-portafolio span:nth-child(5){
+        left: 60%;
+    }
+    .container-fondo-portafolio span:nth-child(6){
+        left: 87%;
+    }
+    .container-fondo-portafolio span:nth-child(7){
+        left: 40%;
+    }
+    .container-fondo-portafolio span:nth-child(8){
+        left: 75%;
+    }
+    .container-fondo-portafolio span:nth-child(9){
+        left: 25%;
+    }
+    .container-fondo-portafolio span:nth-child(10){
+        left: 50%;
+    }
+    .container-fondo-portafolio span:nth-child(11){
+        left: 20%;
+    }
+    .container-fondo-portafolio span:nth-child(12){
+        left: 90%;
+    }
+
+    /* retraso para animación */
+    span.delay-1{
+        animation-delay: 1s;
+    }
+    span.delay-2{
+        animation-delay: 2s;
+    }
+    span.delay-3{
+        animation-delay: 3s;
+    }
+    span.delay-4{
+        animation-delay: 4s;
+    }
+    span.delay-5{
+        animation-delay: 5s;
+    }
+    span.delay-6{
+        animation-delay: 6s;
+    }
 }
 
 /* menos de 575.88px */
